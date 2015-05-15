@@ -14,6 +14,7 @@ for (var i=998001; i>800000; i--) {
     if (n.charAt(n.length-1)===n.charAt(0)) {
         if (n.charAt(n.length-2)===n.charAt(1)) {
             if (n.charAt(n.length-3)===n.charAt(2)) {
+                console.log("for the number " + n);
                 factor(n);
             }
         }
