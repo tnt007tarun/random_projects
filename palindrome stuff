@@ -1,0 +1,11 @@
+
+for (var i=998001; i>10000; i--) {
+    var n = i.toString();
+    if (n.charAt(n.length===n.charAt(0))) {
+        if (n.charAt(n.length-1)===n.charAt(1)) {
+            if (n.charAt(n.length-2)===n.charAt(2)) {
+                console.log(n);
+            }
+        }
+    }
+}
