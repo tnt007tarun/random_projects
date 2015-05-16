@@ -4,7 +4,10 @@ var factor = function (num1) {
     for (var i=100; i<999; i++) {
         if (!(num1%i)) {
         factors.push(i);
+        var ostr = (num1/i).toString();
+        if (ostr.length===3) {
         console.log("factors are " + i + "and" + num1/i);
+        }
         }
     }
 };
